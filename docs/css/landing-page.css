@@ -19,13 +19,13 @@ body, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
+  background-color: #000000;
 }
 
 .intro-message {
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%;
-  background-color: #000000;
 }
 
 .intro-message>h1 {
