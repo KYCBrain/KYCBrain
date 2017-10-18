@@ -14,12 +14,43 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1 !important;
+  /* IE10+ */ 
+  background-image: -ms-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #A221C4), color-stop(100, #3C0C34));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
+
+  /* W3C Markup */ 
+  background-image: linear-gradient(to bottom, #A221C4 0%, #3C0C34 100%);
+}
+
+.navbar-brand img{
+	width: 300px;
+    height: 90px;
+}
+
 .intro-header {
+  z-index: 10;
+  position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background-color: #000000;
 }
 
 .intro-message {
@@ -87,6 +118,19 @@ body, h1, h2, h3, h4, h5, h6 {
   background-color: #f8f8f8;
 }
 
+.content-section-c {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+}
+
+.content-section-d {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+}
 .section-heading {
   margin-bottom: 30px;
 }
