@@ -21,22 +21,14 @@ body, h1, h2, h3, h4, h5, h6 {
   left: 0;
   z-index: -1 !important;
   /* IE10+ */ 
-  background-image: -ms-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
-
-  /* Mozilla Firefox */ 
-  background-image: -moz-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
-
-  /* Opera */ 
-  background-image: -o-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
-
-  /* Webkit (Safari/Chrome 10) */ 
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #A221C4), color-stop(100, #3C0C34));
-
-  /* Webkit (Chrome 11+) */ 
-  background-image: -webkit-linear-gradient(top, #A221C4 0%, #3C0C34 100%);
-
-  /* W3C Markup */ 
-  background-image: linear-gradient(to bottom, #A221C4 0%, #3C0C34 100%);
+background: rgba(161,33,196,1);
+background: -moz-linear-gradient(top, rgba(161,33,196,1) 0%, rgba(60,12,52,1) 50%, rgba(60,12,52,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(161,33,196,1)), color-stop(50%, rgba(60,12,52,1)), color-stop(100%, rgba(60,12,52,1)));
+background: -webkit-linear-gradient(top, rgba(161,33,196,1) 0%, rgba(60,12,52,1) 50%, rgba(60,12,52,1) 100%);
+background: -o-linear-gradient(top, rgba(161,33,196,1) 0%, rgba(60,12,52,1) 50%, rgba(60,12,52,1) 100%);
+background: -ms-linear-gradient(top, rgba(161,33,196,1) 0%, rgba(60,12,52,1) 50%, rgba(60,12,52,1) 100%);
+background: linear-gradient(to bottom, rgba(161,33,196,1) 0%, rgba(60,12,52,1) 50%, rgba(60,12,52,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a121c4', endColorstr='#3c0c34', GradientType=0 );
 }
 
 .navbar-brand img{
